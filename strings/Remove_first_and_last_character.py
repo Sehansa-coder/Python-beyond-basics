@@ -1,6 +1,10 @@
 # Problem :
 # Remove first and last character
-# Return the string without the first and the last character using slicing method.
+# Write a functionthat removes the first and last character from a string and 
+# returns the remaining part.
+
+# input : a string with at least two characters
+# output : a string without first and last character
 
 def remove_first_last(word):
     # find the length of the input 

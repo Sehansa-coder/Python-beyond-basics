@@ -1,6 +1,15 @@
 # Question:
 
-# Write a function that returns the first and last character of a string.
+# Write a function that returns a new string containing only the first 
+# and last character of the given string
+# Input : Astring with at leaat one character
+# output : a string made of the first and last character
+
+# exampe:
+# Input : "a"
+# output : "aa"
+# Input : "hello"
+# output : "ho"
 
 
 def first_last(inputWord):
@@ -21,3 +30,6 @@ print(first_last(word))
 
 # enter the word : python
 # pn
+
+# enter the word : a
+# aa
