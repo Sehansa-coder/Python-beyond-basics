@@ -34,4 +34,12 @@ score=float(input("Enter your score :"))
 person_details(name,age,language,score)
 
 # sample output:
-# 
+# Enter your name:sehansa
+# Enter your age : 18
+# Enter your favourite programming language:Python
+# Enter your score :88.9854 
+# Hello sehansa!
+# You are 18 years old.
+# Your favourite programming language is Python.
+# Your score rounded to 2 decimal places is 88.99.        
+# Next year, you will be 19 years old.
