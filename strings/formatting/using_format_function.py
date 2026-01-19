@@ -35,4 +35,8 @@ print("Score = {:.2f}".format(score))
 
 # Alignments
 
-print("{:<10}|{:>5}".format("Apple,50"))
+print("{:<10}|{:>5}".format("Apple",50))
+# output : Apple     |   50
+
+# {:<10} -> left-align, width 10
+# {:>5} -> right-align, width 5
