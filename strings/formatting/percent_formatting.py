@@ -1,20 +1,28 @@
 # Old-style string formatting using %
 
-name="Lily"
-age=20
-score=87.567
+# This file demonstrates old-stype (%) string formatting and compares it with 
+# modern f-string formatting.
 
-print("Name: %s"% name)  # %s -> string
-print("Age: %d"% age)    # %d -> integert
-print("Score: %f"% score)  # %f -> float
-print("Score rounded off to 2 decimal places: %.2f"% score) # output= 87.57
+name = "Lily"
+age = 20
+score = 87.567
 
-print("My name is %s and I am %d years old."%(name,age)) # output - My name is Lily and I am 20 years old.
+print("Name: %s"% name)     # %s -> string
+print("Age: %d"% age)       # %d -> integer
+print("Score: %f"% score)   # %f -> float
+print("Score rounded off to 2 decimal places: %.2f"% score) 
+# output= 87.57
 
-# same output using f-strings (modern approach
+print("My name is %s and I am %d years old."%(name,age)) 
+# output - My name is Lily and I am 20 years old.
 
-print(f"My name is {name} and I am {age} years old.") # output -My name is Lily and I am 20 years old.
-print(f"score: {score:.2f}")   # output= 87.57
+# same output using f-strings (modern approach)
+
+print(f"My name is {name} and I am {age} years old.") 
+# output -My name is Lily and I am 20 years old.
+
+print(f"Score: {score:.2f}")   
+# output= 87.57
 
 
 # Final output:
@@ -22,7 +30,6 @@ print(f"score: {score:.2f}")   # output= 87.57
 # Age: 20
 # Score: 87.567000
 # Score rounded off to 2 decimal places: 87.57
-# My name is Lily and I am 20 years old.  -\
-#                                           |   same
-# My name is Lily and I am 20 years old.  -/   
+# My name is Lily and I am 20 years old. 
+# My name is Lily and I am 20 years old. 
 # score: 87.57
