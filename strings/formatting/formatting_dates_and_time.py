@@ -1,5 +1,11 @@
 # Formatting dates and time in Python
 
+# This file demonstrates how to format date and time values using 
+# the datetime module along with f-strings.
+# Date and time formatting is commonly used in logs, reports, user interfaces, and 
+# real-world applications.
+
+
 from datetime import datetime
 
 now=datetime.now()
