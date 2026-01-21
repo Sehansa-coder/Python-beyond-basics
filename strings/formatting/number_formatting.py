@@ -1,5 +1,6 @@
 # Formatting numbers in Python
-
+# This file demonstrates formatting numeric values using f-strings.
+# Number formatting is commonly used for money, statistics, and reports.
 
 salary=1000000
 price=12345.6789
