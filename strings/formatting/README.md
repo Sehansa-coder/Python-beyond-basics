@@ -7,7 +7,7 @@ String formatting is commonly used for:
  -Debugging
  -Creating clean, readable messeges
 
--**Examples with explanations are included**.
+*Examples with explanations are included*.
 ---
 
 ## Files included
