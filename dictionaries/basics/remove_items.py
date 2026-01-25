@@ -25,8 +25,10 @@ print("After del:",student)
 # sample output:
 # After del: {'name': 'Alfred', 'country': 'America'}
 
-# Remove all items using clear()
+# If the key doesn't exist, use the following safe version
+student.pop("marks","Key not found")
+
 student.clear()
 print("After clear:",student)
-# sample output:
+# Sample output:
 # After clear: {}
