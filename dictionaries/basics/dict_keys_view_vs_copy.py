@@ -1,4 +1,5 @@
-
+# This program shows the difference between a dictionaru keys view
+# and a copied list of keys in python
 # Dictionary about a car
 
 house={
