@@ -7,7 +7,7 @@ house={
     "built_year":2021
 }
 
-
+# store keys in two different ways
 keys_view=house.keys()         # Live view
 keys_copy=list(house.keys())   # snapshot copy
 
