@@ -1,13 +1,14 @@
+# This program shows the difference between a dictionaru keys view
+# and a copied list of keys in python
 
 # Dictionary about a car
-
 house={
     "floors":3,
     "colour":"white",
     "built_year":2021
 }
 
-
+# store keys in two different ways
 keys_view=house.keys()         # Live view
 keys_copy=list(house.keys())   # snapshot copy
 
