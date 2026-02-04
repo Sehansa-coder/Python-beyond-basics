@@ -1,7 +1,8 @@
 # purpose:
-# This program demonstrate how to remove an item from a list of dictionaries.
+# This program demonstrate how to remove an item from a list of dictionaries based
+# on a condition (age)
 
-# Example:
+# Example: List of students
 
 students=[
     {"name":"David","age":18,"country":"Norway"},
