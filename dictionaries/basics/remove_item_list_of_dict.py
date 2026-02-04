@@ -14,6 +14,8 @@ students=[
 # create a new empty list to store students we want to keep
 new_list=[]
 for stu in students:
+    # check is the student's age is not 18.
+    # If true, it adds the item to the new list
     if stu["age"]!=18:
         new_list.append(stu)
 
