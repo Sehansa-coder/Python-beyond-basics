@@ -11,6 +11,7 @@ students=[
 ]
 
 # Remove student of age 18
+# create a new empty list to store students we want to keep
 new_list=[]
 for stu in students:
     if stu["age"]!=18:
