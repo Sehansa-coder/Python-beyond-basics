@@ -1,7 +1,8 @@
 # purpose:
-# This program demonstrate how to remove an item from a list of dictionaries.
+# This program demonstrate how to remove an item from a list of dictionaries based
+# on a condition (age)
 
-# Example:
+# Example: List of students
 
 students=[
     {"name":"David","age":18,"country":"Norway"},
@@ -10,8 +11,11 @@ students=[
 ]
 
 # Remove student of age 18
+# create a new empty list to store students we want to keep
 new_list=[]
 for stu in students:
+    # check is the student's age is not 18.
+    # If true, it adds the item to the new list
     if stu["age"]!=18:
         new_list.append(stu)
 
