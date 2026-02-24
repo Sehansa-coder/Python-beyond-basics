@@ -2,8 +2,8 @@
 
 numbers=[2,3,4,5,6,7,8,9,10,11]
 
-# a prime number is divisible only by 1 and itself
-# we check if there are no divisors between 2 and num-1
+# A prime number is divisible only by 1 and itself
+# We check if there are no divisors between 2 and num-1
 
 primes=[]
 
